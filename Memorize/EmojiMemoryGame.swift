@@ -7,10 +7,10 @@
 
 import Foundation
 
-class EmojiMemoryGame{
-    private var model:MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+class EmojiMemoryGame:ObservableObject{
+    @Published private var model:MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
-    static func createMemoryGame() -> MemoryGame<String> {
+    private static func createMemoryGame() -> MemoryGame<String> {
         var emojis: Array<String> = []
         for _ in 0...4 {
             emojis.append(String(UnicodeScalar(Int.random(in: 0x1F601...0x1F64F)) ?? "-"))
