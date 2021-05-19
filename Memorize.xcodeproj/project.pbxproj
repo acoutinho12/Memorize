@@ -18,6 +18,7 @@
 		1787B93625E2CE8600F85F1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1787B93525E2CE8600F85F1A /* Preview Assets.xcassets */; };
 		1787B93F25E2ED4700F85F1A /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787B93E25E2ED4700F85F1A /* MemoryGame.swift */; };
 		1787B94225E2EDE100F85F1A /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787B94125E2EDE100F85F1A /* EmojiMemoryGame.swift */; };
+		17C7B85626547F4D005BF013 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C7B85526547F4D005BF013 /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1787B93725E2CE8600F85F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1787B93E25E2ED4700F85F1A /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		1787B94125E2EDE100F85F1A /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		17C7B85526547F4D005BF013 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				175C3FBE264DE043003B36ED /* ArrayHelpers.swift */,
 				175C3FC1264DECCB003B36ED /* Pie.swift */,
 				175C3FC4264DF226003B36ED /* Cardify.swift */,
+				17C7B85526547F4D005BF013 /* ButtonStyles.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				1787B93F25E2ED4700F85F1A /* MemoryGame.swift in Sources */,
 				1787B93125E2CE8300F85F1A /* EmojiMemoryGameView.swift in Sources */,
 				175C3FC2264DECCB003B36ED /* Pie.swift in Sources */,
+				17C7B85626547F4D005BF013 /* ButtonStyles.swift in Sources */,
 				175C3FC5264DF226003B36ED /* Cardify.swift in Sources */,
 				1787B92F25E2CE8300F85F1A /* MemorizeApp.swift in Sources */,
 				175C3FBF264DE043003B36ED /* ArrayHelpers.swift in Sources */,

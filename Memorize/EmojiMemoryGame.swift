@@ -20,7 +20,13 @@ class EmojiMemoryGame:ObservableObject{
         }
     }
        
+    func isEndGame() -> Bool{
+        return model.isEndGame;
+    }
     
+    func newGame() -> Void{
+        model = EmojiMemoryGame.createMemoryGame();
+    }
     // MARK: - Access to Model
     
     var cards: Array<MemoryGame<String>.Card> {
